@@ -1,4 +1,5 @@
-# Use Windows Server Core as the base image
+# Use Windows Server Core as the base image 
+# Note:- Create image as per your windows base version eg-if its 2022 make base image ltsc2022
 FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 # Set up work directory
